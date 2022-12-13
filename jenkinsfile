@@ -1,0 +1,14 @@
+node{
+    
+stage('clone java project') {
+    git 'https://github.com/Apuroopsagar/mahalogin.git'
+}
+
+stage('execute maven project') {
+    sh 'mvn install'
+}
+
+    
+    
+    
+}
